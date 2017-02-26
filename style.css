@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:12px;
+}
+.tab{
+    width:302px;
+    height:99px;
+    margin:10px;
+    border:1px solid #eee;
+    overflow:hidden;
+}
+.tab-title{
+    height:27px;
+    /*position:relative;/**/
+    background-color: #f7f7f7;
+}
+
+.tab-title li{
+    float:left;
+    width:58px;
+    height:26px;
+    line-height: 26px;/*line-height 与 font-size 的计算值之差（在 CSS 中成为“行间距”）分为两半*/
+    text-align: center;
+    padding:0 1px;
+    border-bottom: 1px soild #eeeeee;
+    overflow:hidden;
+
+}
+.tab li a:link, .tab li a:visited{
+    text-decoration: none;
+    color:#000;
+}
+.tab li a:hover{
+    color:red;
+    font-weight:700;
+}
+.tab-title li.high-light{
+    background-color: #fff;
+    border-left:1px solid #eee;
+    border-right:1px solid #eee;
+}
+.content-list{
+    margin:10px 10px 10px 22px;
+}
+.content-list>ul>li{
+    float:left;
+    width:135px;
+    height:21px;
+    line-height:21px;
+    overflow: hidden;
+}
